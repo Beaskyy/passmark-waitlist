@@ -19,10 +19,10 @@ export default function Home() {
   return (
     <div className="relative container mx-auto max-w-[1440px] flex flex-col justify-center items-center bg-[#F9FAFB] min-h-screen">
       {/* background blur circle */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[500px] bg-[radial-gradient(59.66%_49.84%_at_44.77%_47.75%,rgba(27,152,193,0.3)_0%,rgba(157,174,240,0.3)_100%)] rounded-full blur-3xl" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 lg:w-[1000px] w-1/2 lg:h-[500px] h-[400px] bg-[radial-gradient(59.66%_49.84%_at_44.77%_47.75%,rgba(27,152,193,0.3)_0%,rgba(157,174,240,0.3)_100%)] rounded-full blur-3xl" />
 
       {/* content wrapper */}
-      <div className="flex flex-col justify-center items-center gap-[74px] z-10 pt-[154px]">
+      <div className="flex flex-col justify-center items-center gap-[74px] z-10 lg:pt-[154px]">
         <div className="flex flex-col justify-center items-center gap-[70px]">
           <Image src="/logo.svg" alt="logo" width={132} height={40.48} />
 
@@ -35,7 +35,7 @@ export default function Home() {
                   secs left
                 </p>
               </div>
-              <h2 className="lg:text-[64px] text-3xl font-semibold text-center tracking-[-2%] leading-[120%] text-[#424242]">
+              <h2 className="lg:text-[64px] text-4xl font-semibold text-center tracking-[-2%] leading-[120%] text-[#424242]">
                 Join early and mark with precision
               </h2>
               <p className="lg:text-[20px] text-base text-[#4A4A4D] tracking-[1%] text-center leading-[158%]">
